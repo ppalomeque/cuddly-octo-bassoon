@@ -60,8 +60,11 @@ The application will also allow users to adapt recipes based on their available 
 **Application Type**: `CookBook` will be a **responsive web application** accessible through modern desktop and mobile web browsers.
 
 **Architecture**: A **client-server architecture** will be used.
-
 - **Frontend**: React + TypeScript
 - **Backend**: REST API / Business Logic
 - **Database**: Users / Recipes / Inventory / Meal Plans / Ratings
 # Similar Apps
+- **Allrecipes**: centered around recipe discovery, user reviews, ratings, and cooking content
+    - Instead of focusing on a large recipe catalog, `CookBook` will focus on finding recipes with limited ingredients.
+- **BigOven**: is sentered around recipe discovery, meal planning, grocery lists, leftover-based recipe discovery, and other cooking-management featrues.
+    - Instead of identifing recipies containing an ingredient, `CookBook` will evaluate available ingredients, dietary restrictions, cooking time, serving size, and personal preferences to yield **personalized recipe recommendations**.
