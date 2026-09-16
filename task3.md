@@ -6,4 +6,3 @@ Having `Board3D` extend `Board` is a bad design choice.
 - **D**:
 
 The behavior of a 3D board is simply too different from that of a 2D board to justify a 3D board being a specialization of a 2D.
-

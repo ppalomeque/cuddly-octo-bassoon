@@ -1,0 +1,2 @@
+- **S**: The advisor's design adheres to the **Single Responsibility Principle**, as `Book` and `DVD` share some characteristics, and having separate code for them is redundant. It makes sense to have attributes like `Price` and `Title` in a superclass such as `Product`.
+- **D**: The advisor's desgin adheres to the **Dependency Inversion Principle** because `Book` and `DVD` are high level modules, so they can depend on the abstraction of `Product`.
